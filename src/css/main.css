@@ -1,0 +1,79 @@
+@import "tachyons";
+
+body {
+  font-family: NeueHaasUnicaPro-Regular;
+}
+
+.intro {
+  h1, h2 {
+    @extend .f5;
+    @extend .normal;
+  }
+
+  section:first-child {
+    @extend .mt6;
+  }
+
+  ul {
+    @extend .pl0;
+    @extend .list;
+  }
+
+  li {
+    @extend .mt2;
+  }
+}
+
+.resume {
+  header {
+    @extend .tc;
+    @extend .mt4;
+    @extend .mb5;
+  }
+
+  h1, h2 {
+    @extend .f3;
+    @extend .normal;
+    @extend .mt4;
+  }
+  
+  h3 {
+    @extend .f5;
+    @extend .mb2;
+    @extend .mt3;
+  }
+
+  h4 {
+    @extend .f5;
+    @extend .normal;
+    @extend .mt2;
+  }
+
+  li {
+    @extend .mb3;
+  }
+
+  div.back-up {
+    @extend .tc;
+    @extend .w-100;
+    @extend .mt6;
+    @extend .mb5;
+  }
+}
+
+
+article {
+  @extend .w-40;
+  margin: auto;
+}
+
+p, li {
+  @extend .measure-wide;
+  @extend .lh-copy;
+  @extend .gray;
+}
+
+a {
+  @extend .near-black;
+  @extend .hover-bg-light-blue;
+}

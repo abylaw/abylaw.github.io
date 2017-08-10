@@ -1,0 +1,30 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "A personal site",
+  "main": "index.html",
+  "dependencies": {
+    "postcss-cli": "^4.1.0"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^4.1.0",
+    "postcss-scss": "^1.0.2",
+    "precss": "^2.0.0"
+  },
+  "scripts": {
+    "build": "postcss src/css/*.css --dir css -c postcss.config.js",
+    "watch": "postcss src/css/*.css --dir css -c postcss.config.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abylaw/personal-site.git"
+  },
+  "author": "Andrea Law",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abylaw/personal-site/issues"
+  },
+  "homepage": "https://github.com/abylaw/personal-site#readme"
+}
