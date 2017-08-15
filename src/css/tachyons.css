@@ -910,7 +910,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .lh-solid { line-height: 1; }
 .lh-title { line-height: 1.25; }
-.lh-copy { line-height: 1.5; }
+.lh-copy { line-height: 1.75; }
 /*
 
    LINKS
@@ -1583,8 +1583,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mb7 { margin-bottom: 16rem; }
 .mt0 { margin-top: 0; }
 .mt1 { margin-top: .25rem; }
-.mt2 { margin-top: .5rem; }
-.mt3 { margin-top: 1rem; }
+.mt2 { margin-top: 0rem; margin-bottom:-5px;}
+.mt3 { margin-top: 1.4rem; }
 .mt4 { margin-top: 2rem; }
 .mt5 { margin-top: 4rem; }
 .mt6 { margin-top: 8rem; }
@@ -1774,9 +1774,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Type Scale */
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
-.f3 { font-size: 1.5rem; }
+.f3 { font-size: 1.6rem; }
 .f4 { font-size: 1.25rem; }
-.f5 { font-size: 1rem; }
+.f5 { font-size: 17px; }
 .f6 { font-size: .875rem; }
 .f7 { font-size: .75rem; }
 /* Small and hard to read for many people so use with extreme caution */
@@ -1984,7 +1984,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-headline-line-height h3, .nested-headline-line-height h4,
 .nested-headline-line-height h5, .nested-headline-line-height h6 { line-height: 1.25; }
 .nested-list-reset ul, .nested-list-reset ol { padding-left: 0; margin-left: 0; list-style-type: none; }
-.nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+.nested-copy-indent p+p { text-indent: 0.8em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-seperator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
 .nested-links a { color: #357edd; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
@@ -2270,7 +2270,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .w-30-ns { width: 30%; }
  .w-33-ns { width: 33%; }
  .w-34-ns { width: 34%; }
- .w-40-ns { width: 40%; }
+ .w-40-ns { width: 45%; }
  .w-50-ns { width: 50%; }
  .w-60-ns { width: 60%; }
  .w-70-ns { width: 70%; }
@@ -2396,7 +2396,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mt1-ns { margin-top: .25rem; }
  .mt2-ns { margin-top: .5rem; }
  .mt3-ns { margin-top: 1rem; }
- .mt4-ns { margin-top: 2rem; }
+ .mt4-ns { margin-top: 0.67em 0px -5px 0px; }
  .mt5-ns { margin-top: 4rem; }
  .mt6-ns { margin-top: 8rem; }
  .mt7-ns { margin-top: 16rem; }
@@ -2467,7 +2467,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f2-ns { font-size: 2.25rem; }
  .f3-ns { font-size: 1.5rem; }
  .f4-ns { font-size: 1.25rem; }
- .f5-ns { font-size: 1rem; }
+ .f5-ns { font-size: 17px; }
  .f6-ns { font-size: .875rem; }
  .f7-ns { font-size: .75rem; }
  .measure-ns { max-width: 30em; }
@@ -2882,7 +2882,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f2-m { font-size: 2.25rem; }
  .f3-m { font-size: 1.5rem; }
  .f4-m { font-size: 1.25rem; }
- .f5-m { font-size: 1rem; }
+ .f5-m { font-size: 17px; }
  .f6-m { font-size: .875rem; }
  .f7-m { font-size: .75rem; }
  .measure-m { max-width: 30em; }
@@ -3297,7 +3297,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .f2-l { font-size: 2.25rem; }
  .f3-l { font-size: 1.5rem; }
  .f4-l { font-size: 1.25rem; }
- .f5-l { font-size: 1rem; }
+ .f5-l { font-size: 17px; }
  .f6-l { font-size: .875rem; }
  .f7-l { font-size: .75rem; }
  .measure-l { max-width: 30em; }

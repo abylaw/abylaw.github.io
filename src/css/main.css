@@ -1,17 +1,24 @@
 @import "tachyons";
 
 body {
-  font-family: NeueHaasUnicaPro-Regular;
+  font-family: NeueHaasUnicaPro-Regular, -apple-system, Helvetica;
+  -webkit-font-smoothing: antialiased;
 }
 
 .intro {
-  h1, h2 {
+  h1 {
+    @extend .f5;
+    @extend .normal;    
+  }
+
+  h2 {
     @extend .f5;
     @extend .normal;
+  
   }
 
   section:first-child {
-    @extend .mt6;
+    @extend .mt5;
   }
 
   ul {
@@ -21,6 +28,7 @@ body {
 
   li {
     @extend .mt2;
+    line-height: 1.45em;
   }
 }
 
@@ -30,12 +38,22 @@ body {
     @extend .mt4;
     @extend .mb5;
   }
+  p{color:#000;}
 
-  h1, h2 {
+ h1  {
     @extend .f3;
     @extend .normal;
-    @extend .mt4;
+    @extend .mt4; 
+    margin-top: 15px;
   }
+
+  h2 {
+    @extend .f3;
+    @extend .normal;
+    @extend .mt4; 
+    margin-bottom:-5px;
+  }
+
   
   h3 {
     @extend .f5;
@@ -51,7 +69,11 @@ body {
 
   li {
     @extend .mb3;
+    color: #000;
   }
+  li span {
+  font-size: 23px;
+}
 
   div.back-up {
     @extend .tc;
@@ -64,6 +86,7 @@ body {
 
 article {
   @extend .w-40;
+  width: 45%;
   margin: auto;
 }
 
@@ -71,6 +94,8 @@ p, li {
   @extend .measure-wide;
   @extend .lh-copy;
   @extend .gray;
+  font-size:17px;
+
 }
 
 a {
