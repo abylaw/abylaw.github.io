@@ -1,36 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>
-    Andrea Law  
-    </title>
-    <meta name="author" content="Andrea Law">
-    <meta name="description" content="Werb Derverleper">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body class="intro">
-    <section>
-      <article>
-        <img src="img/illustration.png" alt="huh">
-        <h1>Andrea Law</h1>
-        <h2>Programmer &amp; Mango Eater</h2>
-        <p>
-Hi, I'm a digital nomad and full-stack web engineer. I travel the world and help technology companies. Most recently I was at <a href="http://recurse.com" target="_blank">Recurse Center</a>, and previously I was a team lead at <a href="https://www.bench.co" target="_blank">Bench</a>. I'm based out of San Fransisco, and I work remotely.
-        </p>
-        <p>I spend my spare time rock climbing, playing chess, drawing, reading comics, and trying to learn maths.</p>
-        <div>
+<html>
+<head>
+  <title>Andrea Law</title>
+  <style>
+  body {
+    background-color: #f5f0ec;
+    line-height: 1.75em;
+    font-family: NeueHaasUnicaPro-Regular;
+    font-size: 1.1em;
+  }
 
-          <ul>
-            <li><a href="mailto:abylaw@gmail.com">Email</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="https://github.com/abylaw" target="_blank">Github</a></li>
-          </ul>
-        </div> 
-     </article>
-    <section>
+  .container {
+    margin: auto;
+    width: 45%;
+    margin-top: 1em;
+  }
 
-  </body>
+  subtitle {
+    color: #aaa;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-left: 1em; 
+    text-indent: -1em;
+  }
+
+  li::before {
+    content: "•";
+    padding-right: 0.7em;
+    color: #aaa;
+    font-size: 1em;
+  }
+
+  a {
+    color: black;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <strong>Andrea Law</strong><br/>
+    <subtitle>me@andrealaw.co</subtitle>
+
+    <p>Hi, I'm Andrea. I help technology companies transform their validated idea into fully-realized products. Aside from providing the technical expertise and skills necessary to build something scalable, performant and beautiful, I always balance future technical benefits with today's resource constraints and business needs.</p>
+
+    <p>
+      <strong>I can help you</strong>
+      <ul>
+        <li>Choose your language and technology stack</li>
+        <li>Pivot and change as you discover new things about your customers</li>
+        <li>Work with your unique business constraints to develop new features, both on front-end and back</li>
+        <li>Make major decisions about your application architecture, and help you avoid costly mistakes as you scale</li>
+      </ul>
+    </p>
+
+    <p>
+      <strong>I've worked with</strong>
+      <ul>
+        <li><a href="https://www.cbre.com">CBRE</a> Fortune 500 company and America's largest real estate company</li>
+        <li><a href="https://www.bench.co">Bench Co.</a> FinTech startup that provides full-service bookkeeping for small businesses</li>
+        <li><a href="https://verifier.me">Verifier</a> Australian startup ambitiously cutting income verification time down from weeks to seconds</li>
+      </ul>
+    <p>
+  </div>
+</body>
 </html>
