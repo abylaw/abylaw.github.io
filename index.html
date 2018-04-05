@@ -7,16 +7,25 @@
     line-height: 1.75em;
     font-family: NeueHaasUnicaPro-Regular;
     font-size: 1.1em;
+    -webkit-font-smoothing: antialiased; 
   }
 
   .container {
     margin: auto;
-    width: 45%;
+    width: 51%;
     margin-top: 1em;
   }
 
   subtitle {
-    color: #aaa;
+    line-height: 1.1em;
+  }
+
+  subtitle a {
+    color: black;
+  }
+
+   subtitle a:hover {
+    color: #828282;
   }
 
   ul {
@@ -40,32 +49,40 @@
   a {
     color: black;
   }
+
+   a:hover {
+    color: #828282;
+  }
+
+  p {
+    -webkit-margin-after: 0.2em;
+  }
   </style>
 </head>
 <body>
   <div class="container">
-    <strong>Andrea Law</strong><br/>
-    <subtitle>me@andrealaw.co</subtitle>
+    <div><strong>Andrea Law</strong></div>
+    <div class="subtitle">
+      <subtitle><a href="mailto:me@andrealaw.co">me@andrealaw.co</a></subtitle>
+    </div>
 
-    <p>Hi, I'm Andrea. I help technology companies transform their validated idea into fully-realized products. Aside from providing the technical expertise and skills necessary to build something scalable, performant and beautiful, I always balance future technical benefits with today's resource constraints and business needs.</p>
+    <p>Hi, I’m a full-stack software developer in Toronto working with Scala, Go, Javascript, Node.js, React, and Vue. Aside from providing the technical expertise necessary to build something scalable, performant and beautiful, I also balance future technical benefits with today's resource constraints and business needs.</p>
 
-    <p>
-      <strong>I can help you</strong>
+    <p class="experience">
+      <strong>Experience</strong>
       <ul>
-        <li>Choose your language and technology stack</li>
-        <li>Pivot and change as you discover new things about your customers</li>
-        <li>Work with your unique business constraints to develop new features, both on front-end and back</li>
-        <li>Make major decisions about your application architecture, and help you avoid costly mistakes as you scale</li>
+        <li><a href="https://verifier.me" target="_blank">Verifier</a> full-stack engineer, creating back-end infrastructure used to answer critical business questions, and refreshing the front-end experience</li>
+        <li><a href="https://www.bench.co" target="_blank">Bench</a> in-house engineer lead, building out core features such as the billing platform and data integrations</li>
+        <li><a href="https://www.cbre.com" target="_blank">CBRE</a> technical consultant, helping a research team realize a prototype for a new product</li>
+        <li><a href="https://stratejos.ai" target="_blank">Stratejos</a> contractor, building a React MVP for a new integration, which helped win an important partnership with Microsoft
       </ul>
-    </p>
-
     <p>
-      <strong>I've worked with</strong>
-      <ul>
-        <li><a href="https://www.cbre.com">CBRE</a> Fortune 500 company and America's largest real estate company</li>
-        <li><a href="https://www.bench.co">Bench Co.</a> FinTech startup that provides full-service bookkeeping for small businesses</li>
-        <li><a href="https://verifier.me">Verifier</a> Australian startup ambitiously cutting income verification time down from weeks to seconds</li>
-      </ul>
+
+      <p>
+      <strong>Contact</strong> <br/>
+      
+       If you're interested in working together you can reach me at <a href="mailto:me@andrealaw.co">me@andrealaw.co<a>
+     
     <p>
   </div>
 </body>
